@@ -1,0 +1,16 @@
+{
+  "name": "phyllotaxis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "parcel-bundler": "^1.7.0"
+  },
+  "scripts": {
+    "start": "yarn parcel",
+    "build": "yarn parcel build index.html --public-url ./",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://rigellute.github.io/phyllotaxis"
+}
