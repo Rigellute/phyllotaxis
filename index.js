@@ -13,7 +13,7 @@ function setup(sketch) {
 
 function draw(sketch) {
     return () => {
-        const a = n * 137.3;
+        const a = n * 137.5;
         const r = c * sketch.sqrt(n);
 
         const x = r * sketch.cos(a) + sketch.width / 2;

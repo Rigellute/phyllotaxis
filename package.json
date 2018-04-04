@@ -13,5 +13,8 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://rigellute.github.io/phyllotaxis"
+  "homepage": "https://rigellute.github.io/phyllotaxis",
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
 }
